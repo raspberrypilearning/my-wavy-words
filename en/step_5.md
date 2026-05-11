@@ -2,9 +2,12 @@
 
 Use another loop and a turn angle to place words around a circle.
 
-### Add more words
+### Step 1
+Add more words
 
 Add two more lists after `line2`.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -23,9 +26,14 @@ penup()
 hideturtle()
 --- /code ---
 
-### Add falling and round words
+</div>
+
+### Step 2
+Add falling and round words
 
 Add this code after your second `for` loop.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -48,6 +56,8 @@ for i in range(len(line4)):
     forward(20)
     right(360 / len(line4))  # turn fraction of a circle
 --- /code ---
+
+</div>
 
 ### Now run your code
 

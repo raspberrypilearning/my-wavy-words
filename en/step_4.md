@@ -2,9 +2,12 @@
 
 Make a second line of words grow upwards from your first line.
 
-### Create another list
+### Step 1
+Create another list
 
 Add a second list after `line1`.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -18,9 +21,14 @@ line1 = list('my wavy words')  # List from a string
 line2 = list('growing up')
 --- /code ---
 
-### Write the second line
+</div>
+
+### Step 2
+Write the second line
 
 Add this code after your first `for` loop.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -39,6 +47,8 @@ for i in range(len(line2)):
     right(randint(-5, 5))
     forward(15)
 --- /code ---
+
+</div>
 
 ### Now run your code
 

@@ -12,11 +12,12 @@ style1 = ('Courier', 16)
 style2 = ('Times New Roman', 14)
 
 # down line
-goto(-170, 100)
+goto(-150, 100)
 right(90)
 for i in range(len(line1)):  #  Gets length of a list
     write(line1[i], font=style1, align='center')
     forward(15)
+    right(randint(-8,8))
 
 # up line
 forward(30)
@@ -25,7 +26,6 @@ forward(30)
 left(90)
 for i in range(len(line2)): 
     write(line2[i], font=style1, align='center')
-    right(randint(-5,5))
     forward(15)
  
 # falling down

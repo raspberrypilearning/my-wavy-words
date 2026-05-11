@@ -2,9 +2,12 @@
 
 Use a `for` loop to write every character in your list.
 
-### Write each character
+### Step 1
+Write each character
 
 Replace the code that writes `line1[0]` with this loop.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -21,8 +24,9 @@ for i in range(len(line1)):  # Gets length of a list
     forward(15)
 --- /code ---
 
-### Now run your code
+</div>
 
+### Now run your code
 The letters in `my wavy words` appear one under another.
 
 <div class="c-project-output">

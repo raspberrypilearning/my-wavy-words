@@ -2,9 +2,12 @@
 
 Style and colour your wavy words.
 
-### Change the colours and fonts
+### Step 1
+Change the colours and fonts
 
 Add two font styles after `hideturtle()`.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -18,7 +21,12 @@ style1 = ('Courier', 16)
 style2 = ('Times New Roman', 14)
 --- /code ---
 
+</div>
+
+### Step 2
 Use `font=style1` in the first three loops.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -31,7 +39,12 @@ line_highlights: 18
 write(line1[i], font=style1, align='center')
 --- /code ---
 
+</div>
+
+### Step 3
 Add colours and use `style2` for the circle.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -54,6 +67,8 @@ for i in range(len(line4)):
     forward(20)
     right(360 / len(line4))  # turn fraction of a circle
 --- /code ---
+
+</div>
 
 ### Now run your code
 

@@ -1,11 +1,9 @@
-## Make the first line into a list
+## Move the words into a list
 
-A list lets your program use one character at a time.
+### Step 1
+Write your first line of text into a list. Replace `my wavy words` with your own writing.
 
-### Create a list
-
-Add this code after the two `import` lines.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -14,12 +12,22 @@ line_numbers: true
 line_number_start: 4
 line_highlights: 4
 ---
-line1 = list('my wavy words')  # List from a string
+line1 = list('my wavy words')  # Make a list from your text
 --- /code ---
 
-### Write the first item
+</div>
 
-Change your `write()` code so it writes the first item from the list.
+> ### Tip
+>
+> A list XXX add what list is. 
+> then write here that you can call the list 
+{: .c-project-callout .c-project-callout--tip}
+
+
+### Step 2
+Add `write()` to draw the first item in the list - `line1[0]`.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -33,8 +41,10 @@ goto(-170, 100)
 write(line1[0], align='center')
 --- /code ---
 
+</div>
+
 ### Now run your code
-Only the first letter, `m`, appears in the turtle window.
+The first letter, `m`, appears in the turtle window.
 
 <div class="c-project-output">
 
@@ -42,12 +52,3 @@ Only the first letter, `m`, appears in the turtle window.
 
 </div>
 
-> ### Tip
->
-> Lists start counting from `0`, so `line1[0]` is the first item.
-{: .c-project-callout .c-project-callout--tip}
-
-> ### Debugging
->
-> If you see an error, check that `line1` has the number `1`, not the letter `l`.
-{: .c-project-callout .c-project-callout--debug}

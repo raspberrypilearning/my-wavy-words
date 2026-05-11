@@ -1,10 +1,8 @@
-## Make some text appear
+## Draw a line of words
 
-Use `turtle` to write your first words on the screen.
+The starting position is in the middle of the output window, so before drawing use `goto()` to move where you want first line of text to appear. 
 
-### Write your words
-
-Move the turtle to the start position, then write your first line of text.
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -14,14 +12,14 @@ line_numbers: true
 line_number_start: 4
 line_highlights: 4-7
 ---
-penup()
-hideturtle()
 goto(-170, 100)
 write('my wavy words', align='center')
 --- /code ---
 
+</div>
+
 ### Now run your code
-The words `my wavy words` appear near the top left of the turtle window.
+The turtle moves to the top left.
 
 <div class="c-project-output">
 
@@ -29,7 +27,5 @@ The words `my wavy words` appear near the top left of the turtle window.
 
 </div>
 
-> ### Tip
->
-> `penup()` stops the turtle drawing lines when it moves.
-{: .c-project-callout .c-project-callout--tip}
+Tip 
+Alight center makes the words apear in a line - try removeing this to see what happens.
